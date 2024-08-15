@@ -1,0 +1,11 @@
+Training Phase
+Your notebook must use the time-series module to make predictions
+CPU Notebook <= 5 hours run-time
+GPU Notebook <= 5 hours run-time
+TPU Notebooks are not supported
+Freely & publicly available external data is allowed, including pre-trained models
+
+
+Forecasting Phase
+Because the size of the test set will change during the live forecasting phase, the time limits will be adjusted in proportion to the test set size, with a 10% added time allowance.
+As a hypothetical example, if there are 1,000,000 test rows and a 5 hour runtime limit during the training phase and the forecasting phase has 2,000,000 rows, your notebook will be allowed 10 hours + 10% = 11 hours during the forecasting phase.
